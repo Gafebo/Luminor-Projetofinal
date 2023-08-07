@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/rodape.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+  <!-- Inicio do header -->
+  <header>
+    
+
+    <section> <!-- menu -->
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid d-flex align-items-center">
+          <a class="navbar-brand logo-container" href="#">
+            <a href="index.html"><img src="img/LUMINOR (2).png" alt="Logo" class="logo"></a>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="colares" href="colar.html">Colares</a></li>
+                  <li><a class="anel" href="aneis.html">Aneis</a></li>
+                  <li><a class="brincos" href="brincos.html">Brincos</a></li>
+                  <li><a class="Relogios" href="htmls Relogios/relogios.html">Relogios</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="quiz.html">Descubra a sua joia perfeita!</a>
+              </li>
+              </li>
+            </ul>
+            <!-- <a class="navbar-brand logo-container" href="#">
+              <img src="img/LUMINOR (2).png" alt="Logo" class="logo">
+            </a> -->
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Entrar</a>
+                </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <div class="purple-bar"></div>
+
+    <!-- carrosel de imagens -->
+    <section class="carrosel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/background banner.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h3>Descubra o colar perfeito para sua personalidade!</h3>
+              <button type="button" class="btn btn-primary">Clique aqui</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/background banner.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/background banner.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+  </header>
+
+  <div class="category-container">
+    <a href="link_para_categoria1.html" class="category-button">
+      <img src="img/Amethyst Siberian Up.jpg" alt="Categoria 1">
+      <div class="category-name">Categoria 1</div>
+    </a>
+    <a href="link_para_categoria2.html" class="category-button">
+      <img src="img/Amethyst Siberian Up.jpg" alt="Categoria 2">
+      <div class="category-name">Categoria 2</div>
+    </a>
+    <a href="link_para_categoria3.html" class="category-button">
+      <img src="img/Amethyst Siberian Up.jpg" alt="Categoria 3">
+      <div class="category-name">Categoria 3</div>
+    </a>
+    <a href="link_para_categoria4.html" class="category-button">
+      <img src="img/Amethyst Siberian Up.jpg" alt="Categoria 4">
+      <div class="category-name">Categoria 4</div>
+    </a>
+  </div>
+
+
+
+
+
+
+  <!-- inicio do main -->
+  <main>
+
+
+    <section>
+      <div class="container text-center">
+        <div class="row col 4">
+          <div class="col mb-4 ">
+            <div class="card">
+              <img src="img/Amethyst Siberian 14K.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/Amethyst Siberian 14K.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/Amethyst Siberian 14K.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="img/Amethyst Siberian 14K.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <section>
+      <div class="titulo-categorias">
+          <h1>CATEGORIAS</h1>
+      </div>
+      <div class="Container-categorias">
+
+          <div class="categoria">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <h1> ANÉIS</h1>
+              <ion-icon name="cart-outline"></ion-icon>
+          </div><!--roupa-->
+
+          <div class="categoria">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <h1> COLARES</h1>
+              <span><ion-icon name="cart-outline"></ion-icon></span>
+          </div><!--roupa-->
+
+          <div class="categoria">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <h1> BRINCOS</h1>
+              <span><ion-icon name="cart-outline"></ion-icon></span>
+          </div><!--roupa-->
+
+          <div class="categoria">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <h1> RELÓGIOS</h1>
+              <span><ion-icon name="cart-outline"></ion-icon></span>
+          </div><!--roupa-->
+
+      </div>
+  </section>
+  <!--container-categorias-->
+
+
+  <BR></BR>
+
+
+  <section>
+      <div class="titulo-categorias">
+          <h1>PRODUTOS MAIS QUERIDOS</h1>
+      </div>
+
+      <div class="Container-card-1">
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+      </div><!--Container-card-1-->
+
+      <div class="Container-card-1">
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+
+          <div class="cards">
+              <img src="img/Amethyst Siberian Right.jpg" alt="">
+              <div class="cards_text">
+                  <H1> Anel nebulosa</H1>
+                  <h3> R$ 1999,00</h3>
+              </div>
+          </div><!--cards-->
+
+      </div><!--Container-card-1-->
+
+
+  
+
+  
+
+
+  </main>
+
+  <body>
+    <div class="sobrenos">
+        <div class="cardsobre">
+            <img src="img/LUMINOR (2).png" alt="">
+            <div class="content">
+                <h1>Sobre Nós</h1>
+                <p>Este é um exemplo de texto que pode ser usado para descrever sua empresa. Aqui você pode compartilhar detalhes sobre a história da sua empresa, seus valores, sua missão e mais. Lembre-se de substituir este texto pelo seu próprio conteúdo.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+  <!-- inicio do footer -->
+
+
+<!-- Rodapé -->
+<footer style="margin-top: 200px;">
+
+  <div class="boxs">
+  <h2>Início</h2>
+  <ul>
+      <li> <a href="#">Home</a></li>
+      <li> <a href="#">Produtos</a></li>
+      <li> <a href="#">Download</a></li>
+  </ul>
+</div>
+
+  <div class="boxs">
+      <h2>Informações</h2>
+      <ul>
+          <li> <a href="#">Blog</a></li>
+          <li> <a href="#">Contato</a></li>
+          <li> <a href="#">E-mail</a></li>
+      </ul>
+  </div>
+
+  <div class="boxs">
+  <h2>Suporte</h2>
+  <ul>
+      <li> <a href="#">FAQ</a></li>
+      <li> <a href="#">Telefone</a></li>
+      <li> <a href="#">Chat</a></li>
+  </ul>
+  </div>
+
+  <div class="boxs">
+      <h2>Sobre nós</h2>
+      <p>
+        Descubra o encanto celeste com Luminor, onde joias astronômicas brilham intensamente. Nossas peças capturam a magia do cosmos em cada detalhe, levando você em uma jornada estelar. Constelações delicadas e planetas reluzentes adornam colares e anéis únicos. Deixe-se envolver pela fascinação do universo e encontre sua conexão celestial. Explore nossa coleção e brilhe como as estrelas com Luminor, a marca que celebra a beleza do espaço em joias deslumbrantes.
+      </p>
+
+  </div>
+
+</footer>
+
+<div class="footer">
+  <h2>Luminor</h2>
+  <div class="sociais">
+      <div class="social">
+           <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+      </div>
+      <div class="social">
+          <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+
+      </div>
+      <div class="social">
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+      </div>
+  </div>
+
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,2 +1,1 @@
-# Luminor-Projetofinal
-Pastas Organizadas
+# pagcolarpronta
